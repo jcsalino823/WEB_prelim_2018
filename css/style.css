@@ -1,0 +1,27 @@
+.column1 {
+  float: left;
+  width: 50%;
+  height: 100%; 
+   padding-top: 20px;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+    left: 0;
+    background-color: black;    
+}
+
+#get_laugh {
+    position: center;
+}
